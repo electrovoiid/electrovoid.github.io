@@ -1,32 +1,53 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Consolas", monospace;
+  height: 100%;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
+  line-height: 1.0;
+  background: linear-gradient(to bottom right, #ffc155, #ff3b99);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
-  background: #ff00ff;
+  background: #4c00ff;
   color: #fff;
-  padding: 2rem;
-  text-align: center;
+  padding: 1rem;
+  text-align: left;
 }
 
-h1, h2 {
-  margin: 0.5rem 0;
+h1 {
+  font-size: 20vw;
+  margin: -1rem 1rem -2rem 1rem;
 }
 
-main {
-  padding: 2rem;
+h2 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.main-section {
+  flex-grow: 1;
+  font-size: large;
+  padding: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 1rem;
 }
 
 footer {
-  background: #0000ff;
-  color: cyan;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #4c00ff;
+  color: white;
   text-align: center;
   padding: 1rem;
-  margin-text: 2rem;
+  margin-top: 2rem;
 }
   
