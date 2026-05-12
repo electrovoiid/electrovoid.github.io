@@ -1,8 +1,8 @@
 body {
   font-family: "Consolas", monospace;
   min-height: 100dvh;
-  margin: 0px;
-  padding: 0px;
+  margin: 0px 0;
+  padding: 0px 0;
   line-height: 1.0;
   background: linear-gradient(to bottom right, #ffc155, #ff3b99);
   color: #fff;
@@ -20,7 +20,7 @@ body {
 header {
   background: #4c00ff;
   color: #fff;
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: left;
 }
 
